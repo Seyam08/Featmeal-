@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard - Fitmeal+</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <div class="logo"><img src="./images/logo.png" alt="Fitmeal+" /></div>
+      </div>
+      <h1>Admin Dashboard</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="order.html">Orders</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="admin-section">
+      <h2>Manage Orders</h2>
+      <table id="orderTable">
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Email</th>
+            <th>Meal Type</th>
+            <th>Address</th>
+            <th>Note</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Orders dynamically loaded -->
+        </tbody>
+      </table>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

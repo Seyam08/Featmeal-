@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitmeal+ - AI Meal Plans & Delivery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <div class="logo"><img src="./images/logo.png" alt="Fitmeal+" /></div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#meal-generator">Meal Plan</a></li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="admin_dashboard.html">Admin</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <h2>AI-Generated Meal Plans & Healthy Food Delivery</h2>
+      <p>
+        Get a customized meal plan and have your meals delivered anywhere in
+        Dhaka.
+      </p>
+      <a href="#meal-generator" class="btn">Get Your Meal Plan</a>
+    </section>
+
+    <section id="meal-generator" class="meal-section">
+      <div class="meal-section-overlay">
+        <h2 class="meal-heading">Generate Your Meal Plan</h2>
+        <form id="mealForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="number" id="age" placeholder="Age" required />
+          <input type="number" id="weight" placeholder="Weight (kg)" required />
+          <input type="number" id="height" placeholder="Height (cm)" required />
+          <select id="goal">
+            <option value="strength">Gain Strength</option>
+            <option value="weightloss">Weight Loss</option>
+            <option value="maintenance">Maintain Fitness</option>
+          </select>
+          <button type="button" onclick="generateMealPlan()">
+            Generate Plan
+          </button>
+        </form>
+        <div id="mealPlan"></div>
+      </div>
+    </section>
+
+    <footer>
+      <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: support@fitmealplus.com</p>
+        <p>Phone: +880 1234 567 890</p>
+        <p>Location: Dhaka, Bangladesh</p>
+      </section>
+      <p>© 2025 Fitmeal+. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

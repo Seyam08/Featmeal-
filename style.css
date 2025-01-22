@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1dd1a1; /* Light greenish background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #10ac84; /* Dark green */
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* header  */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo {
+  width: 150px;
+  height: auto;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #1dd1a1; /* Light green */
+  color: #333;
+}
+
+.btn {
+  background-color: #10ac84; /* Dark green */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #0e8a6c;
+}
+
+/* Meal Plan Section */
+.meal-section {
+  background-image: url("./images/healthy.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.meal-section-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+.meal-heading {
+  color: #fff;
+  font-size: 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input,
+select,
+textarea,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ff8f00; /* Organic orange */
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e65100;
+}
+
+/* Order Section */
+.order-section {
+  background-image: url("./images/healthy.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.order-section-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+.order-heading {
+  color: #fff;
+  font-size: 40px;
+}
+/* Admin Dashboard */
+.admin-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #1dd1a1;
+}
+
+/* Order Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  background-color: #b2f7c6; /* Light green */
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #10ac84; /* Dark green */
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #10ac84;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
