@@ -130,7 +130,9 @@ button:hover {
   padding: 20px;
   background-color: #1dd1a1;
 }
-
+table#orderTable tbody {
+  color: #222222;
+}
 /* Order Table */
 table {
   width: 100%;
